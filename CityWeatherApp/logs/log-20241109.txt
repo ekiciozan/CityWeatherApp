@@ -1,0 +1,210 @@
+2024-11-09 00:11:00.500 +03:00 [INF] User profile is available. Using 'C:\Users\ozane\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-09 00:11:00.851 +03:00 [INF] Now listening on: http://localhost:7209
+2024-11-09 00:11:00.853 +03:00 [INF] Now listening on: http://localhost:5059
+2024-11-09 00:11:00.934 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-09 00:11:00.935 +03:00 [INF] Hosting environment: Development
+2024-11-09 00:11:00.936 +03:00 [INF] Content root path: C:\Users\ozane\source\repos\CityWeatherApp\CityWeatherApp\
+2024-11-09 00:11:01.403 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/ - -
+2024-11-09 00:11:01.560 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-11-09 00:11:01.583 +03:00 [INF] Executing endpoint 'WeatherController.Index (CityWeatherApp)'
+2024-11-09 00:11:01.626 +03:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WeatherController (CityWeatherApp).
+2024-11-09 00:11:01.825 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-09 00:11:01.974 +03:00 [INF] Executed ViewResult - view Index executed in 150.3755ms.
+2024-11-09 00:11:01.981 +03:00 [INF] Executed action WeatherController.Index (CityWeatherApp) in 352.4763ms
+2024-11-09 00:11:01.982 +03:00 [INF] Executed endpoint 'WeatherController.Index (CityWeatherApp)'
+2024-11-09 00:11:01.992 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/ - - - 200 - text/html;+charset=utf-8 594.6154ms
+2024-11-09 00:11:01.994 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/CityWeatherApp.styles.css?v=MkNUv6Fn0Ara28A4lJMaJCmwo0I6Oxq_tr8ikhYUewI - -
+2024-11-09 00:11:02.004 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/_framework/aspnetcore-browser-refresh.js - -
+2024-11-09 00:11:02.007 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 3.1558ms
+2024-11-09 00:11:02.015 +03:00 [INF] The file /CityWeatherApp.styles.css was not modified
+2024-11-09 00:11:02.017 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/CityWeatherApp.styles.css?v=MkNUv6Fn0Ara28A4lJMaJCmwo0I6Oxq_tr8ikhYUewI - - - 304 - text/css 23.1334ms
+2024-11-09 00:11:02.038 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/_vs/browserLink - -
+2024-11-09 00:11:02.101 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.4082ms
+2024-11-09 00:11:10.921 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7209/ application/x-www-form-urlencoded 205
+2024-11-09 00:11:10.927 +03:00 [INF] Executing endpoint 'WeatherController.Index (CityWeatherApp)'
+2024-11-09 00:11:10.940 +03:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller WeatherController (CityWeatherApp).
+2024-11-09 00:11:10.980 +03:00 [INF] Start processing HTTP request GET "https://api.weatherapi.com/v1/forecast.json?key=147d644004414106a2f75650232001&q=İstanbul&days=1&aqi=no&alerts=no"
+2024-11-09 00:11:10.985 +03:00 [INF] Sending HTTP request GET "https://api.weatherapi.com/v1/forecast.json?key=147d644004414106a2f75650232001&q=İstanbul&days=1&aqi=no&alerts=no"
+2024-11-09 00:11:11.383 +03:00 [INF] Received HTTP response headers after 392.789ms - 200
+2024-11-09 00:11:11.386 +03:00 [INF] End processing HTTP request after 412.3926ms - 200
+2024-11-09 00:11:11.507 +03:00 [INF] Weather API istek İstanbul için başarılı.
+2024-11-09 00:11:11.513 +03:00 [INF] Executing ViewResult, running view WeatherDetail.
+2024-11-09 00:11:11.520 +03:00 [INF] Executed ViewResult - view WeatherDetail executed in 8.1793ms.
+2024-11-09 00:11:11.523 +03:00 [INF] Executed action WeatherController.Index (CityWeatherApp) in 581.9708ms
+2024-11-09 00:11:11.524 +03:00 [INF] Executed endpoint 'WeatherController.Index (CityWeatherApp)'
+2024-11-09 00:11:11.527 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:7209/ application/x-www-form-urlencoded 205 - 200 - text/html;+charset=utf-8 606.2332ms
+2024-11-09 00:11:11.541 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/_vs/browserLink - -
+2024-11-09 00:11:11.542 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/_framework/aspnetcore-browser-refresh.js - -
+2024-11-09 00:11:11.543 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 1.8182ms
+2024-11-09 00:11:11.557 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.5044ms
+2024-11-09 00:11:27.073 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7209/Weather/AddToFavorites application/x-www-form-urlencoded 200
+2024-11-09 00:11:27.078 +03:00 [INF] Executing endpoint 'WeatherController.AddToFavorites (CityWeatherApp)'
+2024-11-09 00:11:27.082 +03:00 [INF] Route matched with {action = "AddToFavorites", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddToFavorites(System.String) on controller WeatherController (CityWeatherApp).
+2024-11-09 00:11:30.941 +03:00 [INF] Start processing HTTP request GET "https://api.weatherapi.com/v1/forecast.json?key=147d644004414106a2f75650232001&q=Istanbul&days=1&aqi=no&alerts=no"
+2024-11-09 00:11:30.942 +03:00 [INF] Sending HTTP request GET "https://api.weatherapi.com/v1/forecast.json?key=147d644004414106a2f75650232001&q=Istanbul&days=1&aqi=no&alerts=no"
+2024-11-09 00:11:31.044 +03:00 [INF] Received HTTP response headers after 101.6025ms - 200
+2024-11-09 00:11:31.046 +03:00 [INF] End processing HTTP request after 105.2477ms - 200
+2024-11-09 00:11:31.060 +03:00 [INF] Weather API istek Istanbul için başarılı.
+2024-11-09 00:11:31.529 +03:00 [INF] Entity Framework Core 6.0.35 initialized 'CityWeatherAppContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.35' with options: None
+2024-11-09 00:11:32.262 +03:00 [INF] Executed DbCommand (49ms) [Parameters=[@__favoriteCity_Name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [FavoriteCities] AS [f]
+        WHERE [f].[Name] = @__favoriteCity_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-11-09 00:11:32.290 +03:00 [WRN] Eklenmek istenen Istanbul şehir zaten listede.
+2024-11-09 00:11:32.292 +03:00 [INF] Executing ViewResult, running view WeatherDetail.
+2024-11-09 00:11:32.294 +03:00 [INF] Executed ViewResult - view WeatherDetail executed in 2.2268ms.
+2024-11-09 00:11:32.295 +03:00 [INF] Executed action WeatherController.AddToFavorites (CityWeatherApp) in 5212.1155ms
+2024-11-09 00:11:32.296 +03:00 [INF] Executed endpoint 'WeatherController.AddToFavorites (CityWeatherApp)'
+2024-11-09 00:11:32.303 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:7209/Weather/AddToFavorites application/x-www-form-urlencoded 200 - 200 - text/html;+charset=utf-8 5230.8915ms
+2024-11-09 00:11:32.317 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/_vs/browserLink - -
+2024-11-09 00:11:32.318 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/_framework/aspnetcore-browser-refresh.js - -
+2024-11-09 00:11:32.319 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 1.1224ms
+2024-11-09 00:11:32.323 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.9012ms
+2024-11-09 00:11:35.686 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/ - -
+2024-11-09 00:11:35.688 +03:00 [INF] Executing endpoint 'WeatherController.Index (CityWeatherApp)'
+2024-11-09 00:11:35.689 +03:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WeatherController (CityWeatherApp).
+2024-11-09 00:11:35.691 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-09 00:11:35.692 +03:00 [INF] Executed ViewResult - view Index executed in 1.2695ms.
+2024-11-09 00:11:35.693 +03:00 [INF] Executed action WeatherController.Index (CityWeatherApp) in 2.544ms
+2024-11-09 00:11:35.694 +03:00 [INF] Executed endpoint 'WeatherController.Index (CityWeatherApp)'
+2024-11-09 00:11:35.695 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/ - - - 200 - text/html;+charset=utf-8 9.3379ms
+2024-11-09 00:11:35.714 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/_vs/browserLink - -
+2024-11-09 00:11:35.720 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.6956ms
+2024-11-09 00:11:35.720 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/_framework/aspnetcore-browser-refresh.js - -
+2024-11-09 00:11:35.725 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 5.5484ms
+2024-11-09 00:11:41.822 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7209/ application/x-www-form-urlencoded 198
+2024-11-09 00:11:41.825 +03:00 [INF] Executing endpoint 'WeatherController.Index (CityWeatherApp)'
+2024-11-09 00:11:41.825 +03:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller WeatherController (CityWeatherApp).
+2024-11-09 00:11:41.827 +03:00 [INF] Start processing HTTP request GET "https://api.weatherapi.com/v1/forecast.json?key=147d644004414106a2f75650232001&q=Ankara&days=1&aqi=no&alerts=no"
+2024-11-09 00:11:41.828 +03:00 [INF] Sending HTTP request GET "https://api.weatherapi.com/v1/forecast.json?key=147d644004414106a2f75650232001&q=Ankara&days=1&aqi=no&alerts=no"
+2024-11-09 00:11:41.917 +03:00 [INF] Received HTTP response headers after 87.2028ms - 200
+2024-11-09 00:11:41.918 +03:00 [INF] End processing HTTP request after 90.7131ms - 200
+2024-11-09 00:11:41.936 +03:00 [INF] Weather API istek Ankara için başarılı.
+2024-11-09 00:11:41.937 +03:00 [INF] Executing ViewResult, running view WeatherDetail.
+2024-11-09 00:11:41.939 +03:00 [INF] Executed ViewResult - view WeatherDetail executed in 1.8648ms.
+2024-11-09 00:11:41.940 +03:00 [INF] Executed action WeatherController.Index (CityWeatherApp) in 113.2525ms
+2024-11-09 00:11:41.941 +03:00 [INF] Executed endpoint 'WeatherController.Index (CityWeatherApp)'
+2024-11-09 00:11:41.942 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:7209/ application/x-www-form-urlencoded 198 - 200 - text/html;+charset=utf-8 119.7924ms
+2024-11-09 00:11:41.958 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/_vs/browserLink - -
+2024-11-09 00:11:41.958 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/_framework/aspnetcore-browser-refresh.js - -
+2024-11-09 00:11:41.959 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 1.4554ms
+2024-11-09 00:11:41.962 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.7970ms
+2024-11-09 00:11:47.848 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7209/Weather/AddToFavorites application/x-www-form-urlencoded 198
+2024-11-09 00:11:47.852 +03:00 [INF] Executing endpoint 'WeatherController.AddToFavorites (CityWeatherApp)'
+2024-11-09 00:11:47.853 +03:00 [INF] Route matched with {action = "AddToFavorites", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddToFavorites(System.String) on controller WeatherController (CityWeatherApp).
+2024-11-09 00:11:47.854 +03:00 [INF] Start processing HTTP request GET "https://api.weatherapi.com/v1/forecast.json?key=147d644004414106a2f75650232001&q=Ankara&days=1&aqi=no&alerts=no"
+2024-11-09 00:11:47.855 +03:00 [INF] Sending HTTP request GET "https://api.weatherapi.com/v1/forecast.json?key=147d644004414106a2f75650232001&q=Ankara&days=1&aqi=no&alerts=no"
+2024-11-09 00:11:47.919 +03:00 [INF] Received HTTP response headers after 63.458ms - 200
+2024-11-09 00:11:47.920 +03:00 [INF] End processing HTTP request after 65.9455ms - 200
+2024-11-09 00:11:47.934 +03:00 [INF] Weather API istek Ankara için başarılı.
+2024-11-09 00:11:47.937 +03:00 [INF] Entity Framework Core 6.0.35 initialized 'CityWeatherAppContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.35' with options: None
+2024-11-09 00:11:47.953 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__favoriteCity_Name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [FavoriteCities] AS [f]
+        WHERE [f].[Name] = @__favoriteCity_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-11-09 00:11:48.171 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [FavoriteCities] ([Name], [TempC])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [FavoriteCities]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2024-11-09 00:11:48.238 +03:00 [INF]  Ankara Sehri favorilere eklendi.
+2024-11-09 00:11:48.239 +03:00 [INF] Executing RedirectResult, redirecting to /Weather/Favorites.
+2024-11-09 00:11:48.240 +03:00 [INF] Executed action WeatherController.AddToFavorites (CityWeatherApp) in 386.2384ms
+2024-11-09 00:11:48.241 +03:00 [INF] Executed endpoint 'WeatherController.AddToFavorites (CityWeatherApp)'
+2024-11-09 00:11:48.242 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:7209/Weather/AddToFavorites application/x-www-form-urlencoded 198 - 302 0 - 393.9206ms
+2024-11-09 00:11:48.246 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/Weather/Favorites - -
+2024-11-09 00:11:48.248 +03:00 [INF] Executing endpoint 'WeatherController.Favorites (CityWeatherApp)'
+2024-11-09 00:11:48.251 +03:00 [INF] Route matched with {action = "Favorites", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Favorites() on controller WeatherController (CityWeatherApp).
+2024-11-09 00:11:48.253 +03:00 [INF] Database'den tüm favori şehirler alınıyor.
+2024-11-09 00:11:48.290 +03:00 [INF] Entity Framework Core 6.0.35 initialized 'CityWeatherAppContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.35' with options: None
+2024-11-09 00:11:48.330 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[Name], [f].[TempC]
+FROM [FavoriteCities] AS [f]
+2024-11-09 00:11:48.354 +03:00 [INF] Executing ViewResult, running view Favorites.
+2024-11-09 00:11:48.368 +03:00 [INF] Executed ViewResult - view Favorites executed in 14.4793ms.
+2024-11-09 00:11:48.369 +03:00 [INF] Executed action WeatherController.Favorites (CityWeatherApp) in 117.1953ms
+2024-11-09 00:11:48.370 +03:00 [INF] Executed endpoint 'WeatherController.Favorites (CityWeatherApp)'
+2024-11-09 00:11:48.371 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/Weather/Favorites - - - 200 - text/html;+charset=utf-8 124.7600ms
+2024-11-09 00:11:48.387 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/_vs/browserLink - -
+2024-11-09 00:11:48.388 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/_framework/aspnetcore-browser-refresh.js - -
+2024-11-09 00:11:48.389 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 1.1852ms
+2024-11-09 00:11:48.392 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.7087ms
+2024-11-09 00:12:04.280 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7209/Weather/RemoveFromFavorites application/x-www-form-urlencoded 198
+2024-11-09 00:12:04.282 +03:00 [INF] Executing endpoint 'WeatherController.RemoveFromFavorites (CityWeatherApp)'
+2024-11-09 00:12:04.286 +03:00 [INF] Route matched with {action = "RemoveFromFavorites", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RemoveFromFavorites(System.String) on controller WeatherController (CityWeatherApp).
+2024-11-09 00:12:04.290 +03:00 [INF] Entity Framework Core 6.0.35 initialized 'CityWeatherAppContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.35' with options: None
+2024-11-09 00:12:04.300 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__cityName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [f].[Id], [f].[Name], [f].[TempC]
+FROM [FavoriteCities] AS [f]
+WHERE [f].[Name] = @__cityName_0
+2024-11-09 00:12:04.317 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [FavoriteCities]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2024-11-09 00:12:04.329 +03:00 [INF] London favorilerden kaldirildi.
+2024-11-09 00:12:04.330 +03:00 [INF] Executing RedirectResult, redirecting to /Weather/Favorites.
+2024-11-09 00:12:04.331 +03:00 [INF] Executed action WeatherController.RemoveFromFavorites (CityWeatherApp) in 44.3843ms
+2024-11-09 00:12:04.332 +03:00 [INF] Executed endpoint 'WeatherController.RemoveFromFavorites (CityWeatherApp)'
+2024-11-09 00:12:04.333 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:7209/Weather/RemoveFromFavorites application/x-www-form-urlencoded 198 - 302 0 - 53.3152ms
+2024-11-09 00:12:04.339 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/Weather/Favorites - -
+2024-11-09 00:12:04.341 +03:00 [INF] Executing endpoint 'WeatherController.Favorites (CityWeatherApp)'
+2024-11-09 00:12:04.341 +03:00 [INF] Route matched with {action = "Favorites", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Favorites() on controller WeatherController (CityWeatherApp).
+2024-11-09 00:12:04.343 +03:00 [INF] Database'den tüm favori şehirler alınıyor.
+2024-11-09 00:12:04.343 +03:00 [INF] Entity Framework Core 6.0.35 initialized 'CityWeatherAppContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.35' with options: None
+2024-11-09 00:12:04.346 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[Name], [f].[TempC]
+FROM [FavoriteCities] AS [f]
+2024-11-09 00:12:04.348 +03:00 [INF] Executing ViewResult, running view Favorites.
+2024-11-09 00:12:04.350 +03:00 [INF] Executed ViewResult - view Favorites executed in 1.811ms.
+2024-11-09 00:12:04.351 +03:00 [INF] Executed action WeatherController.Favorites (CityWeatherApp) in 8.4017ms
+2024-11-09 00:12:04.352 +03:00 [INF] Executed endpoint 'WeatherController.Favorites (CityWeatherApp)'
+2024-11-09 00:12:04.352 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/Weather/Favorites - - - 200 - text/html;+charset=utf-8 13.6075ms
+2024-11-09 00:12:04.370 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/_vs/browserLink - -
+2024-11-09 00:12:04.370 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/_framework/aspnetcore-browser-refresh.js - -
+2024-11-09 00:12:04.371 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 0.9861ms
+2024-11-09 00:12:04.374 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.2998ms
+2024-11-09 00:12:06.495 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/Weather/Favorites - -
+2024-11-09 00:12:06.498 +03:00 [INF] Executing endpoint 'WeatherController.Favorites (CityWeatherApp)'
+2024-11-09 00:12:06.499 +03:00 [INF] Route matched with {action = "Favorites", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Favorites() on controller WeatherController (CityWeatherApp).
+2024-11-09 00:12:06.500 +03:00 [INF] Database'den tüm favori şehirler alınıyor.
+2024-11-09 00:12:06.501 +03:00 [INF] Entity Framework Core 6.0.35 initialized 'CityWeatherAppContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.35' with options: None
+2024-11-09 00:12:06.504 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[Name], [f].[TempC]
+FROM [FavoriteCities] AS [f]
+2024-11-09 00:12:06.507 +03:00 [INF] Executing ViewResult, running view Favorites.
+2024-11-09 00:12:06.509 +03:00 [INF] Executed ViewResult - view Favorites executed in 1.862ms.
+2024-11-09 00:12:06.509 +03:00 [INF] Executed action WeatherController.Favorites (CityWeatherApp) in 9.3831ms
+2024-11-09 00:12:06.511 +03:00 [INF] Executed endpoint 'WeatherController.Favorites (CityWeatherApp)'
+2024-11-09 00:12:06.511 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/Weather/Favorites - - - 200 - text/html;+charset=utf-8 16.0700ms
+2024-11-09 00:12:06.525 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/_vs/browserLink - -
+2024-11-09 00:12:06.525 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/_framework/aspnetcore-browser-refresh.js - -
+2024-11-09 00:12:06.527 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 1.3158ms
+2024-11-09 00:12:06.530 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.2741ms
+2024-11-09 00:12:07.331 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/Weather/Favorites - -
+2024-11-09 00:12:07.333 +03:00 [INF] Executing endpoint 'WeatherController.Favorites (CityWeatherApp)'
+2024-11-09 00:12:07.334 +03:00 [INF] Route matched with {action = "Favorites", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Favorites() on controller WeatherController (CityWeatherApp).
+2024-11-09 00:12:07.336 +03:00 [INF] Database'den tüm favori şehirler alınıyor.
+2024-11-09 00:12:07.337 +03:00 [INF] Entity Framework Core 6.0.35 initialized 'CityWeatherAppContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.35' with options: None
+2024-11-09 00:12:07.339 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[Name], [f].[TempC]
+FROM [FavoriteCities] AS [f]
+2024-11-09 00:12:07.342 +03:00 [INF] Executing ViewResult, running view Favorites.
+2024-11-09 00:12:07.344 +03:00 [INF] Executed ViewResult - view Favorites executed in 1.4204ms.
+2024-11-09 00:12:07.345 +03:00 [INF] Executed action WeatherController.Favorites (CityWeatherApp) in 8.677ms
+2024-11-09 00:12:07.345 +03:00 [INF] Executed endpoint 'WeatherController.Favorites (CityWeatherApp)'
+2024-11-09 00:12:07.347 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/Weather/Favorites - - - 200 - text/html;+charset=utf-8 15.6217ms
+2024-11-09 00:12:07.362 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/_vs/browserLink - -
+2024-11-09 00:12:07.366 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7209/_framework/aspnetcore-browser-refresh.js - -
+2024-11-09 00:12:07.367 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.8753ms
+2024-11-09 00:12:07.368 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7209/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 1.3157ms

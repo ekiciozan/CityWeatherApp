@@ -1,0 +1,24 @@
+﻿@model CityWeatherApp.Dto.WeatherInfo
+@{
+    ViewData["Title"] = "Hava Durumu Şehir Detay";
+}
+@if (TempData["WarningMessage"] != null)
+{
+    <div class="alert alert-warning">
+        @TempData["WarningMessage"]
+    </div>
+}
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-body text-center">
+            <h2 class="card-title">@Model.Location.Name Hava Durumu</h2>
+            <p class="card-text fs-4">Sıcaklık (C): <strong>@Model.Current.TempC°C</strong></p>
+
+            <form asp-action="AddToFavorites" method="post">
+                <input type="hidden" name="cityName" value="@Model.Location.Name" />
+                <button type="submit" class="btn btn-primary">Favorilere Ekle</button>
+                
+            </form>
+        </div>
+    </div>
+</div>

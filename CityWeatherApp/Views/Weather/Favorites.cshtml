@@ -1,0 +1,58 @@
+﻿@model List<FavoriteCity>
+
+@if (TempData["WarningMessage"] != null)
+{
+    <div class="alert alert-warning">
+        @TempData["WarningMessage"]
+    </div>
+}
+
+@{
+    ViewData["Title"] = "Favoriler";
+}
+
+<div class="container mt-5">
+
+    <h2 class="text-center mb-4">Favori Şehirler</h2>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Şehir Adı</th>
+                    <th scope="col">Sıcaklık (°C)</th>
+                    <th scope="col">İşlem</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var city in Model)
+                {
+                    <tr>
+                        <td>@city.Name</td>
+                        <td>@city.TempC</td>
+                        <td>
+                            <form asp-action="RemoveFromFavorites" method="post" class="d-inline">
+                                <input type="hidden" name="cityName" value="@city.Name" />
+                                <button type="submit" class="btn btn-danger btn-sm">Çıkar</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@if (ViewBag.HottestCity != null)
+{
+    <div class="alert alert-danger text-center" role="alert">
+        <strong>En Sıcak Şehir:</strong> @ViewBag.HottestCity.Name -> @ViewBag.HottestCity.TempC°C
+    </div>
+}
+
+@if (ViewBag.ColdestCity != null)
+{
+    <div class="alert alert-primary text-center" role="alert">
+        <strong>En Soğuk Şehir:</strong> @ViewBag.ColdestCity.Name -> @ViewBag.ColdestCity.TempC°C
+    </div>
+}

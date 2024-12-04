@@ -1,0 +1,70 @@
+# Build sonuçları
+bin/
+obj/
+
+# .NET uygulamaları için paketler
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Kullanıcı tarafından oluşturulan dosyalar
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Visual Studio Code tarafından oluşturulan ayarlar
+.vscode/
+.vs/
+.vs
+
+# Rider ayar dosyaları
+.idea/
+*.sln.iml
+
+# Veritabanı dosyaları
+*.mdf
+*.ldf
+
+# Güvenlik bilgileri ve API anahtarları (örneğin appsettings içinde)
+appsettings.*.json
+!appsettings.json
+
+# Git tarafından oluşturulan dosyalar
+*.orig
+*.rej
+
+# İstemci tarafından oluşturulan dosyalar (Node.js, npm)
+node_modules/
+dist/
+build/
+
+# Diğer geçici dosyalar
+.DS_Store
+Thumbs.db
+
+# .NET Core tarafından oluşturulan dosyalar
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio tarafından oluşturulan dosyalar
+.vs/
+_ReSharper/
+*.tss
+*_i.c
+*_p.c
+*_pi.c
+*.ilk
+*.ipch
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cache
+*.pdb
+*.opendb
+*.VC.db
+*.VC.opendb
+*.ldb

@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Hava Durumu Sorgulama";
+}
+
+@if (TempData["WarningMessage"] != null)
+{
+    <div class="alert alert-warning">
+        @TempData["WarningMessage"]
+    </div>
+}
+
+<h2 class="text-center mt-4">Hava Durumu Sorgulama</h2>
+
+<div class="container mt-4">
+    <form asp-action="Index" method="post" class="row g-3 justify-content-center">
+        <div class="col-md-6 col-sm-8">
+            <input type="text" name="cityName" class="form-control" placeholder="Şehir adı girin" required />
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <button type="submit" class="btn btn-primary w-100">Hava Durumunu Göster</button>
+        </div>
+    </form>
+
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <div class="alert alert-danger mt-3 text-center">
+            @ViewBag.ErrorMessage
+        </div>
+    }
+</div>
